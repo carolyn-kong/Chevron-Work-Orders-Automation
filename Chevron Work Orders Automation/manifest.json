@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+
+    "name": "Work Order Form",
+    "description": "Input Work Order Details",
+    "version": "1.0",
+
+
+
+    "browser_action": {
+        "default_icon": "chevron.png"
+    },
+
+    "permissions": [
+        "tabs"
+    ],
+
+    "background": {
+        "scripts": ["background.js"],
+    "persistent": false
+    }
+}
